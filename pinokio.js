@@ -104,6 +104,7 @@ module.exports = {
           icon: 'fa-solid fa-terminal',
           text: "Resetting",
           href: "reset.js",
+          confirm: "Are you sure you wish to reset this app?",
         }]
       } else {
         return [{
@@ -111,6 +112,13 @@ module.exports = {
           icon: "fa-solid fa-power-off",
           text: "Start",
           href: "start.js",
+        }, {
+          icon: "fa-solid fa-power-off",
+          text: "<div><strong>Start</strong><br><div>+SageAttention2</div></div>",
+          href: "start.js",
+          params: {
+            sage: true,
+          }
         }, {
           icon: "fa-solid fa-compact-disc",
           text: "Download Mix",
