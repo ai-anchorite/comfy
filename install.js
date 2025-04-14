@@ -1,5 +1,5 @@
 module.exports = {
-  run  [
+  run:  [
     {
       method: "shell.run",
       params: {
