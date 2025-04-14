@@ -79,7 +79,15 @@ module.exports = {
               flash: true,
             }
           }], 
-        }, {         
+        }, /* {
+          icon: "fa-solid fa-power-off",
+          text: "Custom Nodes",
+          menu: [{
+            icon: "fa-solid fa-power-off",
+            text: "<div><strong>Depthinator Nodes</strong></div>",
+            href: "depthinator.js",
+            }],
+        },  */{         
           icon: "fa-solid fa-plug",
           text: "Update",
           href: "update.js",
