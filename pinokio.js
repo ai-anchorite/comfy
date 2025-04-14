@@ -63,12 +63,23 @@ module.exports = {
           href: "start.js",
         }, {
           icon: "fa-solid fa-power-off",
-          text: "<div><strong>Start</strong><br><div>+SageAttention2</div></div>",
-          href: "start.js",
-          params: {
-            sage: true,
-          }
-        }, {
+          text: "Start -w Optimization flags",
+          menu: [{
+            icon: "fa-solid fa-power-off",
+            text: "<div><strong>Start</strong><br><div>+SageAttention2</div></div>",
+            href: "start.js",
+            params: {
+              sage: true,
+            }
+          }, {
+            icon: "fa-solid fa-power-off",
+            text: "<div><strong>Start</strong><br><div>+FlashAttention2</div></div>",
+            href: "start.js",
+            params: {
+              flash: true,
+            }
+          }], 
+        }, {         
           icon: "fa-solid fa-plug",
           text: "Update",
           href: "update.js",
