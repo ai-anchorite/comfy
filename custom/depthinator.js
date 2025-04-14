@@ -32,17 +32,13 @@ module.exports = {
     {
       method: "shell.run",
       params: {
-        path: "../app/custom_nodes/Video-Depth-Anything",
-        message: [ "git pull" ],
-      }
-    },
-    {
-      method: "shell.run",
-      params: {
         venv: "../../env",
-        path: "../app/custom_nodes/Video-Depth-Anything",
-        message: [ "pip install -r requirements.txt", ]
-      }
-    },
+        path: "../app/custom_nodes/ComfyUI-Video-Depth-Anything",
+        message: [ 
+           "pip install -r requirements.txt", 
+           "pip install xformers"
+           ]
+       }
+    }
   ]
 }
