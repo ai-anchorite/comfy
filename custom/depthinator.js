@@ -26,7 +26,7 @@ module.exports = {
       method: "shell.run",
       params: {
         path: "../app/custom_nodes",
-        message: [ "git clone https://github.com/DepthAnything/Video-Depth-Anything.git" ],
+        message: [ "git clone https://github.com/yuvraj108c/ComfyUI-Video-Depth-Anything" ],
       }
     },
     {
