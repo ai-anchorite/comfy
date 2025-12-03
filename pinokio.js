@@ -74,14 +74,6 @@ module.exports = {
             href: "start.js?flash=true&ts=" + Date.now(),
           }],  
         }, {
-          icon: "fa-solid fa-power-off",
-          text: "Custom Nodes",
-          menu: [{
-            icon: "fa-solid fa-power-off",
-            text: "Depthinator Nodes",
-            href: "custom/depthinator.js",
-            }],
-        }, {         
           icon: "fa-solid fa-plug",
           text: "Update",
           href: "update.js",
